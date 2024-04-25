@@ -12,6 +12,7 @@ tcrBLOSUM is a specialized BLOSUM-style amino acid substitution matrix tailored 
 ## Overview
 
 - *data/*: data used to construct **tcrBLOSUM** and two descriptor-based amino acid substitution matrices (**PhysChemSim** and **TopoSim**)
+  - *data/parsed/processed_for_tcr_blosum_calculations*: TCR data with defined blocks of epitope-specific TCRs
 
 - *src/*: scripts to generate tcrBLOSUMs, PhysChemSim, and TopoSim matrices
   - *src/Dataset_assembly*: scripts to process TCR data and define blocks of epitope-specific TCRs
