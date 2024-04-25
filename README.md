@@ -17,9 +17,10 @@ tcrBLOSUM is a specialized BLOSUM-style amino acid substitution matrix tailored 
   - *src/Dataset_assembly*: scripts to process TCR data and define blocks of epitope-specific TCRs
   - *src/Matrix_evaluation*: scripts to evaluate performance of tcrBLOSUMb when applied to clustering and alignment of distant TCRs
 
-- Results and figures can be found under *results/*
-  - **tcrBLOSUM** matrices can be found under */results/tcrBLOSUMmtx*
+- *results/*: results and figures
+  - */results/tcrBLOSUMmtx*: **tcrBLOSUM** matrices
     - *tcrBLOSUM_all_alpha.tsv* - tcrBLOSUMa, tcrBLOSUM matrix for CDR3 alpha
     - *tcrBLOSUM_all_beta.tsv* - tcrBLOSUMb, tcrBLOSUM matrix for CDR3 beta
-  - **PhysChemSim**, an alternative amino acid substitution matrix which reflects the similarity between amino acids based on their physicochemical properties, can be found under */results/otherMTXs*
-  - **TopoSim**, an alternative amino acid substitution matrix which reflects the similarity in atomic composition and atomic neighbourhoods between amino acids, can be found under */results/otherMTXs*
+  - */results/otherMTXs*: alternative amino acid substitution matrices
+    - **PhysChemSimMtx.tsv** - a matrix which reflects the similarity between amino acids based on their physicochemical properties
+    - **TopoSimMtx.tsv** - a matrix which reflects the similarity in atomic composition and atomic neighbourhoods between amino acids
