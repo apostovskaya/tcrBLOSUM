@@ -1,7 +1,7 @@
 # tcrBLOSUM: an amino acid substitution matrix for sensitive alignment of distant epitope-specific TCRs
 tcrBLOSUM is a specialized BLOSUM-style amino acid substitution matrix tailored for TCR sequences. This matrix captures the amino acid variations occurring within TCRs binding the same epitope. Employing tcrBLOSUM instead of BLOSUM62 in TCR clustering methods like [TCRdist](https://github.com/kmayerb/tcrdist3) enables epitope-annotation of distant TCRs, with diverse amino acid composition and physicochemical profiles.
 
-![Alt text](./results/figures/graph_abstract.png?raw=true "graphical abstract")
+![Alt text](results/Figures/graph_abstract.png?raw=true "graphical abstract")
 
 [//]: # (<p align="center">)
 
